@@ -1,6 +1,6 @@
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
-# Ask Doubt on telegram @CodeflixSupport
+# Don't Remove Credit @HX_Hub_bot
+# Ask Doubt on telegram @HX_Hub_bot
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
 #
@@ -20,7 +20,7 @@ from pyrogram.enums import ParseMode
 import sys
 import pytz
 from datetime import datetime
-#rohit_1888 on Tg
+#HX_Hub_bot on Tg
 from config import *
 from database.db_premium import *
 from database.database import *
@@ -99,7 +99,7 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @Codeflix_Bots")   
+        self.LOGGER(__name__).info(f"Bot Running..! Made by @Hx_VideoHub")   
 
         # Start Web Server
         app = web.AppRunner(await web_server())
@@ -107,7 +107,7 @@ class Bot(Client):
         await web.TCPSite(app, "0.0.0.0", PORT).start()
 
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @Codeflix_Bots</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @Hx_VideoHub</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
@@ -118,7 +118,7 @@ class Bot(Client):
         """Run the bot."""
         loop = asyncio.get_event_loop()
         loop.run_until_complete(self.start())
-        self.LOGGER(__name__).info("Bot is now running. Thanks to @rohit_1888")
+        self.LOGGER(__name__).info("Bot is now running. Thanks to @Hx_VideoHub")
         try:
             loop.run_forever()
         except KeyboardInterrupt:
