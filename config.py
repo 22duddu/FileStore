@@ -91,21 +91,21 @@ USER_REPLY_TEXT = "This is file store Bot if you have any problem contact @HX_Hu
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "Hx_VideoHub")
-UPI_ID = os.environ.get("UPI_ID", "hxhub@ptyes")
+UPI_ID = os.environ.get("UPI_ID", "@HX_Hub_bot")
 QR_PIC = os.environ.get("QR_PIC", "https://t.me/ajkajauauiw/2")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"https://t.me/ajkajauauiw/2")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"https://t.me/HX_Hub_bot")
 #--------------------------------------------
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "0 rs")
+PRICE1 = os.environ.get("PRICE1", "15 rs")
 #1 Month
-PRICE2 = os.environ.get("PRICE2", "60 rs")
+PRICE2 = os.environ.get("PRICE2", "49 rs")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "150 rs")
+PRICE3 = os.environ.get("PRICE3", "129 rs")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "280 rs")
+PRICE4 = os.environ.get("PRICE4", "229 rs")
 #1 Year
-PRICE5 = os.environ.get("PRICE5", "550 rs")
+PRICE5 = os.environ.get("PRICE5", "379 rs")
 
 #===================(END)========================#
 
