@@ -74,7 +74,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"● {PRICE3}  For 3 Months Prime Membership\n\n"
                 f"● {PRICE4}  For 6 Months Prime Membership\n\n"
                 f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
-                f"💵 Please PAY using this UPI and send the screenshot to @HX_Hub_bot. Upi ID 👉-  <code>{UPI_ID}</code>\n\n\n"
+                f"💵 Please PAY using this UPI and send the screenshot to @HX_Hub_bot.\n Upi ID 👉-  <code>{UPI_ID}</code>\n\n\n"
                 f"♻️ After Payment You Will Get Instant Membership \n\n\n"
                 f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
             ),
