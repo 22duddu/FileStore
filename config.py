@@ -48,8 +48,8 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/howto_openlink")
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Hx_VideoHub</b>"
-ABOUT_TXT = "<b>ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/HX_Hub_bot>HX BOSS</a></b>"
+HELP_TXT = "<b>if you have any problem contact @HX_Hub_bot</b>"
+ABOUT_TXT = "<b>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Hx_VideoHub \n ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/HX_Hub_bot>HX BOSS</a></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention}\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -91,7 +91,7 @@ USER_REPLY_TEXT = "This is file store Bot if you have any problem contact @HX_Hu
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "Hx_VideoHub")
-UPI_ID = os.environ.get("UPI_ID", "@HX_Hub_bot")
+UPI_ID = os.environ.get("UPI_ID", "hxhub@ptyes")
 QR_PIC = os.environ.get("QR_PIC", "https://t.me/ajkajauauiw/2")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"https://t.me/HX_Hub_bot")
 #--------------------------------------------
