@@ -91,7 +91,7 @@ USER_REPLY_TEXT = "This is file store Bot if you have any problem contact @HX_Hu
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "Hx_VideoHub")
-UPI_ID = os.environ.get("UPI_ID", "hxhub@ptyes")
+UPI_ID = os.environ.get("UPI_ID", "askadmin")
 QR_PIC = os.environ.get("QR_PIC", "https://t.me/ajkajauauiw/2")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"https://t.me/HX_Hub_bot")
 #--------------------------------------------
