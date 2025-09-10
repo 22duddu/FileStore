@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
 
     elif data == "start":
-    mention = query.from_user.mention
+    await mention = query.from_user.mention
             text = START_MSG.format(first=query.from_user.first_name, mention=mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
