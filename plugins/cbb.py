@@ -37,15 +37,19 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ])
         )
 
-    elif data == "start":
-    await mention = query.from_user.mention
-            text = START_MSG.format(first=query.from_user.first_name, mention=mention),
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')]
-            ])
-        )
+    elif query.data == "start":
+    mention = query.from_user.mention
+    first = query.from_user.first_name
+    
+    text = START_MSG.format(first=first, mention=mention)
+
+    await query.message.edit_text(
+        text=text,
+        reply_markup=InlineKeyboardMarkup([
+            [InlineKeyboardButton("Support", url="https://t.me/Hx_VideoHub")]
+        ])
+    )
+
 
 
 # Don't Remove Credit @CodeFlix_Bots, @rohit_1888
