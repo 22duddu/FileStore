@@ -17,7 +17,7 @@ from database.database import *
 async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
 
-    if data == "help":
+        if data == "help":
         await query.message.edit_text(
             text=HELP_TXT.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
@@ -37,15 +37,15 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ])
         )
 
-   elif data == "start":
+    elif data == "start":   # ✅ Fixed indentation
         await query.message.edit_text(
             text=START_MSG.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("ʜᴇʟᴘ", callback_data='help'),
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')]
-        ])
-    )
+            ])
+        )
 
 
 
