@@ -17,7 +17,7 @@ from database.database import *
 async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
 
-        if data == "help":
+    if data == "help":
         await query.message.edit_text(
             text=HELP_TXT.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
@@ -37,7 +37,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ])
         )
 
-    elif data == "start":   # ✅ Fixed indentation
+    elif data == "start":
         await query.message.edit_text(
             text=START_MSG.format(first=query.from_user.first_name),
             disable_web_page_preview=True,
@@ -46,7 +46,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')]
             ])
         )
-
 
 
 # Don't Remove Credit @CodeFlix_Bots, @rohit_1888
@@ -70,12 +69,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             caption=(
                 f"👋 {query.from_user.username}\n\n"
                 f"🎖️ Available Plans :\n\n"
-                f"● {PRICE1}  For 7 Days Prime Membership\n\n"
+                f"● {PRICE1}  For 0 Days Prime Membership\n\n"
                 f"● {PRICE2}  For 1 Month Prime Membership\n\n"
                 f"● {PRICE3}  For 3 Months Prime Membership\n\n"
                 f"● {PRICE4}  For 6 Months Prime Membership\n\n"
                 f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
-                f"💵 Please PAY using this UPI and send the screenshot to @HX_Hub_bot.\n \n Upi ID 👉-  <code>{UPI_ID}</code>\n\n\n"
+                f"💵  Please PAY using this UPI and send the screenshot to @HX_Hub_bot.\n \n Upi ID 👉  <code>{UPI_ID}</code>\n\n\n"
                 f"♻️ After Payment You Will Get Instant Membership \n\n\n"
                 f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
             ),
