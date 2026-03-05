@@ -19,11 +19,11 @@ from logging.handlers import RotatingFileHandler
 #--------------------------------------------
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8154426339:")
-APP_ID = int(os.environ.get("APP_ID", "")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "") #Your API Hash from my.telegram.org
+APP_ID = int(os.environ.get("APP_ID", "25375012")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "27a4f752a278a867dd5802cad08e8093") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002694129726")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "h07143") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "6289896756")) # Owner id
 #--------------------------------------------
@@ -40,10 +40,10 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "3a269171611fa7e5146fdf07b500d4137293bd7a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/howto_openlink")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/howto_openlink/6")
 
 #--------------------------------------------
 
